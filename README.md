@@ -29,7 +29,14 @@ This is a minimal yet powerful **Generative AI App** built using **Streamlit** a
 ---
 
 ## ⚙️ How to Run the App Locally
-1. **Run the app**:
+1. **Install Ollama and pull the model**:
+   ```bash
+   ollama run gemma3:1b
+2. Clone this repository:
+    ```bash
+   git clone https://github.com/rahulprajapati08/simple-genai-ollama.git
+   cd simple-genai-ollama
+3. Run the app:
    ```bash
    streamlit run app.py
 
